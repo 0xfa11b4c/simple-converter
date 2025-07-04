@@ -1,4 +1,4 @@
-import { resolveFlagUrl } from "../../utils/flagResolver.js";
+import { resolveFlagUrl } from "../utils/flagResolver.js";
 
 export function renderCurrencyInputs(currencies, rates, container) {
   const inputs = {};
