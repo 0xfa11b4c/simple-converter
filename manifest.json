@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Converter",
+  "version": "1.0",
+  "description": "Currency and crypto converter popup",
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "24": "icons/Image24.png"
+    }
+  },
+  "icons": {
+    "24": "icons/Image24.png"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "https://cdn.jsdelivr.net/"
+  ]
+}
